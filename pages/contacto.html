@@ -9,7 +9,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sobre Nosotras</title>
+    <title>Contacto</title>
   </head>
   <body>
     <header>
@@ -23,20 +23,20 @@
               <a class="nav__link" href="../index.html">Inicio</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="/pages.html/contacto.html">Contacto</a>
+              <a class="nav__link" href="/pages/contacto.html">Contacto</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="/pages.html/Sobre nosotras.html"
+              <a class="nav__link" href="/pages/Sobre nosotras.html"
                 >Sobre nosotras</a
               >
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="/pages.html/FAQ.html"
+              <a class="nav__link" href="/pages/FAQ.html"
                 >Preguntas frecuentes</a
               >
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="/pages.html/Dondecomprar.html"
+              <a class="nav__link" href="/pages/Dondecomprar.html"
                 >¿Donde comprar?</a
               >
             </li>
@@ -44,10 +44,47 @@
         </nav>
       </div>
     </header>
-    <h2>¿Quienes somos?</h2>
-    <h4>Agos y Sofi</h4>
-    <h2>Mas preguntas en h2</h2>
-    <h4>Mas respuestas en h4</h4>
+    <h1>Contacto</h1>
+    <form action="Nombreyapellido">
+      <fieldset>
+        <legend>Contactanos</legend>
+        <label for="Nombre">Nombre:</label>
+        <input type="Nombre" name="Nombre" id="Nombre" />
+        <br />
+        <label for="Apellido">Apellido:</label>
+        <input type="text" name="apellido" id="Apellido" />
+        <br />
+        <label for="email">Correo electronico:</label>
+        <input type="email" name="Email" id="Email" />
+        <br />
+        <br />
+        <label for="Sexo">Indicar sexo:</label>
+        <span>Hombre</span>
+        <input type="radio" name="sexo" value="hombre" />
+        <span>Mujer</span>
+        <input type="radio" name="sexo" value="mujer" />
+        <span>Otro</span>
+        <input type="radio" name="sexo" value="Otro" />
+        <br />
+        <br />
+        <label for="Productos">Busco productos de:</label>
+        <select name="talles" id="talles">
+          <option value="Beauty">Ecobeauty</option>
+          <option value="hogar">Limpieza del hogar eco</option>
+          <option value="mascotas">Ecomascotas</option>
+          <option value="reciclar">Puntos de reciclaje</option>
+        </select>
+        <br />
+        <br />
+        <label for="mensaje" id="Mensaje">Dejanos tu mensaje:</label>
+        <br />
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10"> </textarea>
+        <div>
+          <input type="reset" value="Borrar formulario" />
+          <input type="submit" value="Enviar formulario" />
+        </div>
+      </fieldset>
+    </form>
     <footer class="footer">
       <div class="container">
         <div class="row footer__icons">
