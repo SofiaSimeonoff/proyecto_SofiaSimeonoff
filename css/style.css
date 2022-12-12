@@ -4,13 +4,32 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Montserrat", sans-serif;
+.header {
+  color: white;
+}
+.header:hover {
+  color: grey;
 }
 
-img {
-  max-width: 100%;
-  vertical-align: middle;
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: right;
+  justify-content: center;
+}
+.nav .nav__list {
+  list-style: none;
+  display: flex;
+}
+.nav .nav__list .nav__item {
+  margin-right: 1rem;
+}
+.nav .nav__list .nav__item .nav__link {
+  text-decoration: none;
+  color: rgb(149, 227, 159);
+}
+.nav .nav__list .nav__item .nav__linkhover {
+  color: rgb(48, 98, 50);
 }
 
 .container {
@@ -19,99 +38,8 @@ img {
   margin: 0 auto;
 }
 
-.header {
-  background: linear-gradient(to left, rgb(190, 234, 190), rgb(145, 213, 145));
-  padding: 0.5rem 0;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  position: sticky;
-  top: 0;
-  margin-bottom: 2rem;
-  font-size: 1rem;
-  text-align: center;
-}
-
-.nav__list {
-  /*margin: 0;
-  padding: 0;*/
-  list-style: none;
-  margin-bottom: 1rem;
-}
-
-.nav__item {
-  margin-top: 0.3rem;
-}
-
-.nav__link {
-  color: white;
-  text-transform: uppercase;
-  text-decoration: none;
-  margin-left: 0.5rem;
-}
-
-/*b.nav__link a {
-  color: white;
-  text-decoration: none;
-}
-
-.nav__link a:hover {
-  color: green;
-  text-decoration: underline;
-}*/
-
-.logo {
-  margin-left: 0.5rem;
-}
-
 .main__title {
-  padding: 0.5rem 2rem;
-  top: 0;
-  margin-bottom: 2rem;
-  width: 95%;
-  max-width: 1320px;
-  margin: 2rem, 0, 0, 2rem;
+  color: rgb(179, 218, 179);
 }
 
-.main__subtitle {
-  padding: 0.5rem 2rem;
-  top: 0;
-  margin-bottom: 2rem;
-  width: 95%;
-  max-width: 1320px;
-  margin: 2rem, 0, 0, 2rem;
-}
-
-.footer {
-  padding-top: 1.5rem;
-  background-color: rgb(190, 234, 190);
-  color: white;
-  font-size: 1rem;
-  text-align: center;
-  padding-bottom: 1.5rem;
-  margin: auto;
-}
-
-/*.redes-facebook {
-  margin-right: 2rem;
-}
-
-.redes-twitter {
-  margin-right: 2rem;
-}
-
-.redes-instagram {
-  margin-right: 2rem;
-}
-
-/* {
-  cursor: pointer;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  width: 3rem;
-  height: 3rem;
-  padding: 0em;
-  border-radius: 0.25rem;
-  background-color: transparent;
-  color: rgba(255, 255, 255, 0.55);
-  transition: opacity 250ms ease;
-  position: absolute;
-  left: 0;
-}*/
+/*# sourceMappingURL=style.css.map */
