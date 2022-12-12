@@ -1,55 +1,13 @@
-.nav {
-  width: 100%;
-  display: flex;
-  align-items: right;
-  justify-content: center;
-}
-
-.nav__list {
-  list-style: none;
-  display: flex;
-  list-style: none;
-  margin-bottom: 1rem;
-}
-
-.nav__item {
-  margin-right: 1rem;
-  margin-top: 0.3rem;
-}
-
-.nav__link {
-  margin-left: 0.5rem;
-  list-style: none;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: rgb(255, 255, 255);
-}
-.nav__linkhover {
-  color: rgb(9, 62, 11);
-  text-decoration: underline;
-}
-
-.header {
-  background: linear-gradient(to bottom, rgb(190, 234, 190), rgb(145, 213, 145));
-  padding: 0.5rem 0;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  position: sticky;
-  top: 0;
-  margin-bottom: 2rem;
-  font-size: 1rem;
-  text-align: left;
-}
-
 .main__title {
-  color: rgb(179, 218, 179);
+  color: $primary-color;
 }
 
 img {
   max-width: 100%;
   vertical-align: middle;
-}
-imghover {
-  opacity: 50%;
+  &hover {
+    opacity: 50%;
+  }
 }
 
 body {
@@ -87,7 +45,7 @@ body {
 
 .footer {
   /*padding-top: 1.5rem;
-
+ 
   color: white;
   font-size: 1rem;
   text-align: center;
@@ -104,9 +62,9 @@ body {
   list-style: none;
   text-transform: uppercase;
   color: white;
-}
-.link__redeshover {
-  color: rgb(9, 62, 11);
+  &hover {
+    color: rgb(9, 62, 11);
+  }
 }
 
 .form {
@@ -124,18 +82,3 @@ body {
   color: green;
   background: transparent;
 }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
-}
-
-.container {
-  width: 95%;
-  max-width: 1320px;
-  margin: 0 auto;
-}
-
-/*# sourceMappingURL=style.css.map */

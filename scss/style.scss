@@ -1,45 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.header {
-  color: white;
-  &:hover {
-    color: grey;
-  }
-}
-
-.nav {
-  width: 100%;
-  display: flex;
-  align-items: right;
-  justify-content: center;
-
-  .nav__list {
-    list-style: none;
-    display: flex;
-    .nav__item {
-      margin-right: 1rem;
-      .nav__link {
-        text-decoration: none;
-        color: rgb(149, 227, 159);
-        &hover {
-          color: rgb(48, 98, 50);
-        }
-      }
-    }
-  }
-}
-$primary-color: rgb(179, 218, 179);
-
-.container {
-  width: 95%;
-  max-width: 1320px;
-  margin: 0 auto;
-}
-
-.main__title {
-  color: $primary-color;
-}
+@import "variables";
+@import "navbar";
+@import "mixin";
+@import "index";
+@import "global";
